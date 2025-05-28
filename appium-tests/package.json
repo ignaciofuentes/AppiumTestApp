@@ -1,0 +1,26 @@
+{
+  "name": "appium-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js",
+    "test-local": "wdio run ./wdio.conf.local.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "webdriverio": "^9.14.0"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.14.0",
+    "@wdio/local-runner": "^9.14.0",
+    "@wdio/mocha-framework": "^9.14.0",
+    "@wdio/spec-reporter": "^9.14.0",
+    "appium-xcuitest-driver": "^9.2.5"
+  },
+  "bundledDependencies": [
+    "webdriverio"
+  ]
+}
